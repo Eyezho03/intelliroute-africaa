@@ -1,0 +1,41 @@
+.ira-tracking {
+  padding: 32px 40px;
+}
+.ira-tracking h2 {
+  color: #2a4d8f;
+  margin-bottom: 24px;
+}
+.ira-tracking-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+  margin-bottom: 16px;
+}
+.ira-tracking-table th, .ira-tracking-table td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 1rem;
+}
+.ira-tracking-table th {
+  background: #f0f4fa;
+  color: #2a4d8f;
+  font-weight: 600;
+}
+.ira-tracking-table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+.ira-tracking-map-placeholder {
+  background: #eaf1fb;
+  border: 2px dashed #b2becd;
+  border-radius: 12px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2a4d8f;
+  font-size: 1.1rem;
+  font-style: italic;
+} 

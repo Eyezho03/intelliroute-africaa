@@ -1,0 +1,68 @@
+.ira-pricing {
+  padding: 32px 40px;
+}
+.ira-pricing h2 {
+  color: #2a4d8f;
+  margin-bottom: 24px;
+}
+.ira-pricing-row {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.ira-pricing-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(44, 62, 80, 0.06);
+  padding: 32px 28px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 260px;
+}
+.ira-pricing-card h3 {
+  color: #2a4d8f;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+.ira-pricing-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1abc9c;
+  margin-bottom: 8px;
+}
+.ira-pricing-desc {
+  color: #444;
+  font-size: 1rem;
+  margin-bottom: 14px;
+}
+.ira-pricing-features {
+  list-style: disc inside;
+  color: #2a4d8f;
+  font-size: 1rem;
+  margin: 0;
+  padding-left: 18px;
+}
+.ira-pricing-features li {
+  margin-bottom: 6px;
+}
+.ira-pricing-addons {
+  background: #f0f4fa;
+  border-radius: 12px;
+  padding: 20px 28px;
+  color: #2a4d8f;
+}
+.ira-pricing-addons h3 {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.ira-pricing-addons ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #444;
+  font-size: 1rem;
+}
+.ira-pricing-addons li {
+  margin-bottom: 6px;
+} 

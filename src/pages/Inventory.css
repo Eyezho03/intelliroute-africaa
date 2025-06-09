@@ -1,0 +1,53 @@
+.ira-inventory {
+  padding: 32px 40px;
+}
+.ira-inventory h2 {
+  color: #2a4d8f;
+  margin-bottom: 24px;
+}
+.ira-inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+  margin-bottom: 16px;
+}
+.ira-inventory-table th, .ira-inventory-table td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 1rem;
+}
+.ira-inventory-table th {
+  background: #f0f4fa;
+  color: #2a4d8f;
+  font-weight: 600;
+}
+.ira-inventory-table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+.ira-inv-status {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.ira-inv-status-good {
+  background: #eafaf6;
+  color: #27ae60;
+}
+.ira-inv-status-low {
+  background: #fdeaea;
+  color: #e74c3c;
+}
+.ira-inv-status-medium {
+  background: #fffbe6;
+  color: #e67e22;
+}
+.ira-inventory-footer {
+  color: #888;
+  font-size: 0.98rem;
+  margin-top: 8px;
+} 

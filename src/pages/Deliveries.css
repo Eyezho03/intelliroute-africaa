@@ -1,0 +1,73 @@
+.ira-deliveries {
+  padding: 32px 40px;
+}
+.ira-deliveries h2 {
+  color: #2a4d8f;
+  margin-bottom: 24px;
+}
+.ira-deliveries-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+  margin-bottom: 16px;
+}
+.ira-deliveries-table th, .ira-deliveries-table td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 1rem;
+}
+.ira-deliveries-table th {
+  background: #f0f4fa;
+  color: #2a4d8f;
+  font-weight: 600;
+}
+.ira-deliveries-table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+.ira-status {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.ira-status-delivered {
+  background: #eafaf6;
+  color: #27ae60;
+}
+.ira-status-intransit {
+  background: #fffbe6;
+  color: #e67e22;
+}
+.ira-status-assigned {
+  background: #eaf1fb;
+  color: #2a4d8f;
+}
+.ira-status-pending {
+  background: #f0f4fa;
+  color: #888;
+}
+.ira-status-failed {
+  background: #fdeaea;
+  color: #e74c3c;
+}
+.ira-link {
+  background: none;
+  border: none;
+  color: #2a4d8f;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-right: 8px;
+}
+.ira-link:last-child {
+  margin-right: 0;
+}
+.ira-deliveries-footer {
+  color: #888;
+  font-size: 0.98rem;
+  margin-top: 8px;
+} 

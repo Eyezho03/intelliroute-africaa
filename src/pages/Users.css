@@ -1,0 +1,44 @@
+.ira-users {
+  padding: 32px 40px;
+}
+.ira-users h2 {
+  color: #2a4d8f;
+  margin-bottom: 24px;
+}
+.ira-users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.04);
+  margin-bottom: 16px;
+}
+.ira-users-table th, .ira-users-table td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 1rem;
+}
+.ira-users-table th {
+  background: #f0f4fa;
+  color: #2a4d8f;
+  font-weight: 600;
+}
+.ira-users-table tr:not(:last-child) {
+  border-bottom: 1px solid #e5e7eb;
+}
+.ira-user-status {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.ira-user-status-active {
+  background: #eafaf6;
+  color: #27ae60;
+}
+.ira-user-status-inactive {
+  background: #fdeaea;
+  color: #e74c3c;
+} 
